@@ -54,7 +54,7 @@ let redraw = (data) => {
 
   let barWidth = width/data.length;
 
-var myTransition =  svg.selectAll('rect')
+svg.selectAll('rect')
     .data(data)
     .enter()
     .append('rect')
